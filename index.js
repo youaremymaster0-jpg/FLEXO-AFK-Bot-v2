@@ -19,7 +19,7 @@ let botState = {
   startTime: Date.now(),
   errors: []
 };
-
+ 
 // Health check endpoint for monitoring
 // Health check endpoint for monitoring
 app.get('/', (req, res) => {
